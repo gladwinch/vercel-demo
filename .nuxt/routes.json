@@ -1,0 +1,9 @@
+[
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/gladwin/projects/vsh/vercel-demo/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_12e4f412"
+  }
+]

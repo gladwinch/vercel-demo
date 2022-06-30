@@ -1,4 +1,4 @@
-const express = require('exprexx')
+const express = require('express')
 
 const app = express()
 

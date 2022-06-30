@@ -10,4 +10,7 @@ app.get('/hello', function(req, res) {
         .end()
 })
 
-module.exports = app
+export default {
+    path: '/',
+    handler: app,
+}

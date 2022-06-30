@@ -1,4 +1,4 @@
-import path from 'path'
+// import path from 'path'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -37,9 +37,7 @@ export default {
   modules: [
   ],
 
-  serverMiddleware: [
-		{ path: "/api", handler: path.join(__dirname, '/server/index.js') }
-	],
+  serverMiddleware: ['~/server/index.js'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

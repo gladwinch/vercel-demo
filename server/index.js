@@ -1,4 +1,4 @@
-import express from 'express'
+const express = require('exprexx')
 
 const app = express()
 
@@ -10,4 +10,4 @@ app.get('/hello', function(req, res) {
         .end()
 })
 
-export default app
+module.exports = app

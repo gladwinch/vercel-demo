@@ -10,7 +10,7 @@ app.get('/hello', function(req, res) {
 
     let isVercel = false 
 
-    if(process.env.VERCEL === 1) isVercel = true
+    if(process.env.VERCEL === "1") isVercel = true
     res
         .status(200)
         .json({ success: true, 

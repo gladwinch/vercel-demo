@@ -6,7 +6,7 @@ app.get('/hello', function(req, res) {
 
     res
         .status(200)
-        .json({ success: true, data: process.env.NOW_URL })
+        .json({ success: true, data: process.env.secret })
         .end()
 })
 

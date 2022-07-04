@@ -6,7 +6,7 @@ app.get('/hello', function(req, res) {
 
     res
         .status(200)
-        .json({ success: true, data: process.env.secret })
+        .json({ success: true, api: 'alex', data: process.env.secret })
         .end()
 })
 

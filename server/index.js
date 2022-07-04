@@ -10,6 +10,10 @@ app.get('/hello', function(req, res) {
         .end()
 })
 
+
+console.log('VERCEL: ------', process.env.VERCEL)
+console.log('VERCEL_URL: ------', process.env.VERCEL_URL)
+
 module.exports = {
     path: '/api',
     handler: app,
